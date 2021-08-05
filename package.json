@@ -1,0 +1,14 @@
+{
+  "name": "walletconnect-ext",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "@walletconnect/web3-provider": "^1.5.2",
+    "eth-provider": "^0.9.1",
+    "terser-webpack-plugin": "^4.2.3",
+    "web3": "^1.5.0",
+    "webpack": "4.x",
+    "webpack-cli": "3.x"
+  }
+}
