@@ -12,6 +12,7 @@
     "webpack-cli": "3.x"
   },
   "scripts": {
-      "build": "webpack --config webpack.config.js && node src/main.js"
+      "build": "webpack --config webpack.config.js && node src/main.js",
+      "extract": "mkdir .ext && cp -a dist .ext/ && cp -a img .ext/ && cp manifest.json .ext/ && cd .ext && zip -r ../build.zip . && cd .. && rm -rf .ext"
   }
 }
