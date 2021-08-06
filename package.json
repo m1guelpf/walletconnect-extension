@@ -10,5 +10,8 @@
     "web3": "^1.5.0",
     "webpack": "4.x",
     "webpack-cli": "3.x"
+  },
+  "scripts": {
+      "build": "webpack --config webpack.config.js && node src/main.js"
   }
 }

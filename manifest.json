@@ -1,9 +1,11 @@
 {
     "name": "WalletConnect Bridge",
     "version": "1.0",
-    "description": "WIP.",
+    "description": "Use WalletConnect-compatible wallets (like Rainbow), even when the sites only support MetaMask.",
     "icons": {
-        "128": "img/icon.png"
+        "128": "img/icon-128.png",
+        "48": "img/icon-48.png",
+        "16": "img/icon-16.png"
     },
     "content_scripts": [
         {
